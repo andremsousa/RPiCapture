@@ -1,0 +1,8 @@
+YYtion to execute when the button pressed event happens
+GPIO.add_event_detect(18, GPIO.FALLING, callback = Shutdown, bouncetime = 2000)$
+
+# Now wait!
+while 1:
+    time.sleep(1)
+
+
